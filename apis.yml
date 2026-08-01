@@ -1,7 +1,25 @@
 aid: splashlearn
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/splashlearn.png
 name: SplashLearn
-description: 'SplashLearn is a company surfaced as a portfolio company of accel and added to the API Evangelist
-  network as a stub for enrichment. Sector: mobile. This profile is a lead awaiting the enrichment pipeline.'
+description: 'SplashLearn (operated by StudyPad, Inc.) is a game-based learning platform
+  offering math and English/ELA curriculum for preschool through Grade 5 students,
+  used by parents, teachers, schools, and homeschoolers. It delivers interactive games,
+  worksheets, lesson plans, and progress tracking across web and mobile (iOS/Android)
+  apps, plus homeschool, summer-learning, and SpringBoard programs. Surfaced as an
+  Accel portfolio company and added to the API Evangelist network. No public developer
+  API, SDK, or developer portal is currently published; this profile captures the
+  company identity and public web/security surface.'
 url: https://raw.githubusercontent.com/api-evangelist/splashlearn/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +29,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Mobile
+- Education
+- EdTech
+- Learning
+- Kids
+- Mathematics
+- English Language Arts
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +47,23 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: http://www.splashlearn.com
+  url: https://www.splashlearn.com
+- type: Blog
+  url: https://www.splashlearn.com/blog/
+- type: Support
+  url: https://support.splashlearn.com/hc/en-us
+- type: SignUp
+  url: https://www.splashlearn.com/register
+- type: Login
+  url: https://www.splashlearn.com/signin
+- type: PrivacyPolicy
+  url: https://www.splashlearn.com/privacy
+- type: TermsOfService
+  url: https://www.splashlearn.com/terms-of-use
+- type: DomainSecurity
+  url: security/splashlearn-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
